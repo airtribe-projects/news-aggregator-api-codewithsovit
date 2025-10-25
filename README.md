@@ -40,5 +40,3 @@ curl --location --request GET 'http://localhost:5003/api/news/top-headlines' \
 curl --location --request GET 'http://localhost:5003/api/news' \
 --header 'Authorization: Bearer <JWT_TOKEN>' \
 --header 'Content-Type: application/json' | jq
-
-EOF
